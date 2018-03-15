@@ -1,0 +1,213 @@
+﻿<!DOCTYPE HTML>
+
+
+<html>
+<head>
+
+<style>
+ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+ul li{
+	display:block;
+	position:relative;
+	float:left;
+	border:1px solid #000;
+	
+}
+li ul{
+	display:none;
+	
+}
+ul li a{
+	display:block;
+	background:#000;
+	padding:5px 10px 5px 10px;
+	text-decoration:none;	
+	color:#000;
+}
+ul li a:hover{
+	background:#069;
+}
+	
+li:hover ul{
+	display:block;
+	position:absolute;  
+	
+}
+li:hover li{
+	float:none;
+}
+li:hover a{
+	background:#000;
+	text-align:center;
+}
+li:hover li a:hover{
+	background:#99C;
+}
+
+#navlist li ul li{
+	border-top:0px;
+}
+	
+	
+body{
+	width:1000px;
+	margin:0px auto;
+	height:100%;
+	background-image:url(images/beautiful-central-park-full-hd-new-best-desktop-background-wide-photos-free.jpg);
+	background-repeat:no-repeat; background-size:cover;
+	
+
+}
+
+</style>
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+</head>
+<body>
+<header>
+    <div class="headerContainer">
+        <h1><a href="">Central Zoo</a></h1>
+        <div id="navcontainer" style="margin-right:255px;">
+            <ul id="navlist">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Category</a>
+                	<ul class="drop" >
+                    	<li><a href="animals.html">Animals</a></li>
+                		<li><a href="bird.html">Birds</a></li>
+                		
+                   	</ul>
+                </li>       	
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="safari.html">Safari</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="clearfloat"></div>
+    </div>
+</header>
+<div class="container">
+    <section>
+    	<!-- begin .slider -->
+		<div class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><img src="images/sliderPic1.jpg" alt=""></li>
+                    <li class="logo"><img src="images/Zoo Animals Leo Lioness Lion Wallpaper.jpg" </li><li><img src="images/sliderPic3.jpg" alt=""></li>
+                    <li class="logo1"><img src="images/Forest Sun Rays Animal Deer Wallpaper.jpg" alt="" ></li>
+                    <li class="logo2"><img src="images/Safari Wildlife Animal Leopard Wallpaper.jpg" alt=""></li>
+                </ul>
+            
+            </div>
+        </div>
+        <div class="clearfloat"></div>
+		<br>
+<div style="background:#000 "  ><!-- end .slider -->
+        <h1 style="text-align:center">Welcome</h1>
+        <p style="text-align:center">
+        	Central Zoo is nestled in the green belt of Wellington, New Zealand. Now over 100 years old, it was the country’s first zoo and has 13-hectare (32-acre) dedicated to over 100 species of fauna from across the globe. Central Zoo is a significant contributor to conservation efforts including breeding programs for endangered species such as the sun bear and Sumatran tiger, as well as spreading conservation and sustainability messages to the wider community.
+Central Zoo is committed to the welfare of animals and wildlife both within the zoo and around the world. As well as caring for their own animals, Central Zoo participates in breeding programs both locally and internationally, and contributes to conservation and research programs both within the zoo, around the country and even overseas.Until the early 19th century, the function of the zoo was often to symbolize royal power, like King Louis XIV's menagerie at Versailles. The modern zoo that emerged in the early 19th century at London, Paris and Dublin, was focused on providing educational exhibits to the public for entertainment and inspiration.
+
+A growing fascination for natural history and zoology, coupled with the tremendous expansion in the urbanization of London, led to a heightened demand for a greater variety of public forms of entertainment to be made available. The need for public entertainment, as well as the requirements of scholarly research, came together in the founding of the first modern zoos.
+
+
+
+        </p>
+        </div>
+        <!-- begin .boxes -->
+        <div style="background:#000"  >
+        <div class="clearfloat"></div>
+        <div class="boxes">
+			<ul>
+            	<li>
+                	<img src="images/boxPic1.jpg" alt=""><h2>Exhibitions</h2>
+                    <p>
+                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                    </p>
+                  
+                </li>
+                <li>
+                	<img src="images/boxPic2.jpg" alt=""><h2>Attractions</h2>
+                    <p>
+                    	And if you’re coming with kids, you’ll be pleased to hear there’s the chance of a breather while the little darlings tear around the play areas we’ve dotted about the place
+
+
+                    </p>
+                   <a href="attract.html"> <button>More</button></a>	
+                    
+                </li>
+                <li>
+                	<img src="images/boxPic3.jpg" alt=""><h2>Rules</h2>
+                    <p>
+                    		No visitor shall disturb any exhibit animals by any means, including an attempt to pet, feed, handle or trap exhibit animals unless overseen by a Zoo staff member. 
+                    </p>
+                    
+                    <a href="rule.html"><button>More</button></a>
+              
+                   
+                </li>
+                <li>
+                	<img src="images/boxPic4.jpg" alt=""><h2>Tickets</h2>
+                    <p>
+                    Click here for ticket information and online booking.                   </p>
+                   <a href="safari.html"><button>More</button></a>
+                </li>
+            </ul>
+            <div class="clearfloat"></div>
+        </div>
+        <!-- end .boxes -->
+    </section>
+</div>
+</div>
+
+            <!-- end Left List -->
+            <div class="clearfloat"></div>
+        </div>
+    </div>
+    <div class="footerBottom" style="margin-top:20px"></div>
+    <div class="clearfloat"></div>
+    <div class="copyright" style="margin-top:10px">
+        <p>
+            Copyright &copy; Your Company Name. All rights reserved. Designed by <a href="http://www.free-responsive-templates.com" title="free responsive templates">Free Responsive Templates</a>, Validation 
+            <a class="footerLink" href="http://validator.w3.org/check/referer" title="This page validates as HTML5"><abbr title="HyperText Markup Language">HTML5</abbr></a> | 
+            <a class="footerLink" href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS3</abbr></a>
+        </p>
+    </div>
+    <div class="boxes" style="background:#000; margin-top:10px">
+  <h6 style="padding:0px;margin:0px;text-align:center; font-size:18px">
+  
+  
+NAME:FUTURE GENERATION   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     EMAIL:HALF@FUTREGENERATION.COM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PHN #:+92321-3213213
+
+  </h6>
+  
+        </div>
+        
+    
+    
+    
+    </div>
+    <div class="socialIcons">
+        <ul>
+            <li><a href=""><img src="images/twitterIcon.png" alt="twitter icon"></a></li>
+            <li><a href=""><img src="images/facebookIcon.png" alt="facebook icon"></a></li>
+            <li><a href=""><img src="images/rssIcon.png" alt="rss icon"></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
